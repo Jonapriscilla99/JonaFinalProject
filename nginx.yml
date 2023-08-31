@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  vars:
+    webserver: nginx
+  tasks:
+    - name: Install Nginx
+      apt:
+        name: "{{ webserver }}"
+        state: present
+
+    - name: Start Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
