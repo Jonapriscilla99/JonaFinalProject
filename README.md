@@ -8,6 +8,7 @@ Tasks in Hand:
 5. Create a CI/CD Pipeline (Using GitHub Actions or Jenkins), that will upload the index.html file on EC2 Instance from the Repository.
    
 Task 1: A Terraform code to create EC2 Instance with a Security Group.
+
 Pre-requisite:
 -Terraform
 -VS Code
@@ -26,6 +27,7 @@ Pre-requisite:
 Use the documentation https://registry.terraform.io/providers/hashicorp/aws/latest
 
 Task 2: Use Ansible for configuring EC2 (Install Nginx or Apache)
+
 Pre-requisite
        * Set Up and connect to the  EC2 Instance that was created using Terraform code
        * Install Ansible using the commands in  https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-22-04
@@ -35,6 +37,7 @@ Pre-requisite
        * Verify Nginx Installation with your public ip [http://3.120.149.155](http://3.71.199.214/)
 
 Task 3 and 4: Creating a GitHub Repository
+
 Pre-requisite
        * GitHub Account
 Steps:
@@ -43,6 +46,7 @@ Steps:
        * Commit changes to save the file.
        
 Task 5: Create a CI/CD Pipeline (Using Jenkins) to transfer .html file from Repository to EC2 Instance
+
 Pre-requisite
       * Install jenkins and docker to your EC2 instance below links
           https://www.jenkins.io/doc/book/installing/docker/#setup-wizard
